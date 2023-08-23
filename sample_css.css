@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+min-height:100vh;
+display: flex;
+flex-direction:column;
+background-image: url('/static/sample_bk.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+  }
+h2 {
+  margin-bottom: 20px;
+text-align:center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #40E0D0;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+margin-top:20px;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+  
+  header {
+    background-color: #40E0D0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  img{
+      width:20px;
+      height:20px;
+  display:inline-block;
+      horizontal-align: center;
+  }
+button{   
+  background-color: #40E0D0;
+  padding: 20px;
+  width: 300px;
+  color: #ffffff;
+  text-align: center;
+  border: 4px double #cccccc;
+  border-radius: 5px; 
+  font-size: 28px;
+}
+.login-container {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  width: 300px;
+align-items:center;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+} 
+
+.login-container1 {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  width: 300px;
+align-items:center;
+margin-left:60px;
+margin-right:40px;
+} 
+.login-container2 {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  width: 300px;
+align-items:center;
+margin-left:45%;
+margin-right:40%;
+} 
+.container {
+display:flex;
+text-align:center;
+}
+  footer {
+    background-color: #40E0D0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+margin-top: auto;
+  }

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stockinfo</title>
+</head>
+<body>
+    <h1>Stock  Details</h1>
+    <table border="1">
+            <tr>
+                <th>Item Id </th>
+                <th>Item Name </th>
+                <th>Quantity</th>
+            </tr>
+            {% for row in data %}
+            <tr>
+                <td>{{ row[0] }}</td>
+                <td>{{ row[1] }}</td>
+                <td>{{ row[2] }}</td>
+            </tr>
+            {% endfor %}
+    </table>
+</body>
+</html>

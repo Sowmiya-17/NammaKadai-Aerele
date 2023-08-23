@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BalanceInfo</title>
+</head>
+<body>
+    <h1>Balance  Details</h1>
+    <table border="3">
+            <tr>
+                <th>Company Name</th>
+                <th>Cash Balance </th>
+            </tr>
+            {% for row in data %}
+            <tr>
+                <td>{{ row[0] }}</td>
+                <td>{{ row[1] }}</td>
+            </tr>
+            {% endfor %}
+    </table>
+</body>
+</html>
